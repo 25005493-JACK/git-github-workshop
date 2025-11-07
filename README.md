@@ -165,3 +165,43 @@ This is how developers work safely in parallel without breaking the main branch.
 ---
 
 **Happy coding and collaborating! 💻🚀**
+
+---
+
+## For the pros
+
+If you're already comfortable with Git and GitHub and want to contribute improvements, please fork this repository, make your changes, and open a pull request against the original repository.
+
+Quick checklist:
+
+- Fork this repository on GitHub (use the "Fork" button in the top-right).
+- Clone your fork locally, create a feature branch, make changes, and push the branch to your fork.
+- Open a Pull Request (PR) from your branch on your fork to the `main` branch of the original repository.
+
+Example steps (replace placeholders with your values):
+
+```bash
+# clone your fork (replace <your-username>)
+git clone https://github.com/<your-username>/git-github-workshop.git
+cd git-github-workshop
+
+# create a feature branch
+git checkout -b feat/your-change
+
+# make changes, then commit and push
+git add .
+git commit -m "Describe your improvement"
+git push -u origin feat/your-change
+```
+
+Then open a PR on GitHub from `feat/your-change` (your fork) → `stanX19:main` (original repo). In your PR description, explain the change, why it's useful, and include any testing or verification steps.
+
+Suggested advanced contributions for pros:
+
+- Add or improve CI (GitHub Actions) to run tests or linters.
+- Add automated tests or example scripts demonstrating workshop exercises.
+- Improve documentation: add a `CONTRIBUTING.md`, clearer challenge instructions, or troubleshooting tips.
+- Add accessibility or localization improvements for non-English participants.
+- Propose small refactors or fixes to any scripts, and include tests or examples.
+
+Thanks for helping improve the workshop — we welcome thoughtful PRs and good commit messages.
